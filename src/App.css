@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Blog Title Styling */
+.blog-title {
+  color: #e14e45;
+  font-size: 8vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondary-blog-title {
+  color: black;
+  font-size: 3vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Nav Format */
+.top-nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+/* Nav Styling */
+ul > a {
+  color: #8c8c8c;
+
+  font-size: 1.5vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Date Styling */
+.article-date {
+  color: #8c8c8c;
+  font-size: 2.5vw;
+}
+
+/* Article Title Styling */
+.article-title {
+  font-size: 4vw;
+}
+
+/* Image Sizing */
+.img {
+  width: 100%;
+}
+
+/* Text sizing and styling */
+.article-text {
+  color:#5f7778;
+  font-size: 2vw;
+}
+
+/* Styling first letter of article text */
+span {
+  font-size: 8vw;
+  color: #808080;
+
+  display: inline-block;
+  /* -ms-word-wrap: normal; */
+  word-wrap: break-word;
+}
+
+/* Styling the continue at the bottom of article */
+.continues-tag {
+  color: #e14e45;
+  font-size: 2vw;
+
+  display: flex;
+  justify-content: end;
+}
+
+/* Nav Styling */
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bottom-nav-styling {
+  color: #e1534a;
+  text-decoration: none;
+
+  font-size: 1.5vw;
+}
+
+/* Copyright styling */
+.copyright {
+  color: gray;
+
+  font-size: 1.5vw;
 }
